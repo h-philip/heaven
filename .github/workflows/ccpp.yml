@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: make -C code/heaven release && rm heaven main.o relink.out src/ tinyxml2/ -R
+      run: make -C code/heaven release && cd code/heaven/out && rm heaven main.o relink.out src/ tinyxml2/ -R
     - uses: actions/upload-artifact@v1
       with:
         name: build
