@@ -4,9 +4,9 @@ on: [push]
 
 jobs:
   build:
-
+    container:
+      image: hoennecke/heaven:latest
     runs-on: ubuntu-latest
-    
     steps:
     - uses: actions/checkout@v2
     - name: make
