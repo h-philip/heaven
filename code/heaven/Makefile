@@ -2,9 +2,9 @@ SFML_INSTALL_DIR = ~/SFML
 COMPILE_FLAGS = -I$(SFML_INSTALL_DIR)/include -std=c++11 -D GCC -Wall
 # remove the following line for release
 COMPILE_FLAGS += -g -D DEBUG \
-	-D INFO \
-	-D NETWORK_VERBOSE \
-	-D PORTAL_DEBUG
+	# -D INFO \
+	# -D NETWORK_VERBOSE \
+	# -D PORTAL_DEBUG
 LINK_FLAGS = -L$(SFML_INSTALL_DIR)/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-network -lsfml-audio
 
 # src files
