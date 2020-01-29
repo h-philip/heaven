@@ -52,5 +52,6 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "bit": "cpp"
-    }
+    },
+    "docker.defaultRegistryPath": "hoennecke"
 }
