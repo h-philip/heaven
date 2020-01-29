@@ -10,12 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: make -C code/heaven release
+      run: make -C code/heaven release && rm heaven main.o relink.out src/ tinyxml2/ -R
     - uses: actions/upload-artifact@v1
       with:
-        name: tar-gz-build
-        path: code/heaven/out/heaven.tar.gz
-    - uses: actions/upload-artifact@v1
-      with:
-        name: zip-build
-        path: code/heaven/out/heaven.zip
+        name: build
+        path: code/heaven/out/
