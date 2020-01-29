@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <grounds>
+    <ground pos_x_px="880" pos_y_px="470" size_x_px="100" size_y_px="100" type="start_button"/>
+    <ground pos_x_px="500" pos_y_px="1095" size_x_px="100" size_y_px="100" type="network_button"/>
+    <ground pos_x_px="1300" pos_y_px="1095" size_x_px="100" size_y_px="100" type="buyable_button" buyable_type="jump_boost"/>
+    <ground pos_x_px="1200" pos_y_px="1095" size_x_px="100" size_y_px="100" type="buyable_button" buyable_type="immortality"/>
+    <ground pos_x_px="957" pos_y_px="1032" size_x_px="240" size_y_px="50" type="solid_ground"/>
+    <ground pos_x_px="1017" pos_y_px="919" size_x_px="125" size_y_px="37" type="solid_ground"/>
+    <ground pos_x_px="417" pos_y_px="834" size_x_px="0" size_y_px="0" type="solid_ground"/>
+    <ground pos_x_px="1056" pos_y_px="749" size_x_px="39" size_y_px="33" type="solid_ground"/>
+    <ground pos_x_px="0" pos_y_px="724" size_x_px="881" size_y_px="145" type="solid_ground"/>
+    <ground pos_x_px="1264" pos_y_px="724" size_x_px="655" size_y_px="148" type="solid_ground"/>
+    <ground pos_x_px="1701" pos_y_px="646" size_x_px="2" size_y_px="0" type="solid_ground"/>
+    <ground pos_x_px="1704" pos_y_px="646" size_x_px="144" size_y_px="25" type="solid_ground"/>
+    <ground pos_x_px="872" pos_y_px="557" size_x_px="124" size_y_px="81" type="solid_ground"/>
+    <ground pos_x_px="213" pos_y_px="556" size_x_px="105" size_y_px="43" type="solid_ground"/>
+    <ground pos_x_px="1523" pos_y_px="476" size_x_px="110" size_y_px="49" type="solid_ground"/>
+    <ground pos_x_px="476" pos_y_px="398" size_x_px="122" size_y_px="43" type="solid_ground"/>
+    <ground pos_x_px="1183" pos_y_px="368" size_x_px="94" size_y_px="98" type="solid_ground"/>
+    <ground pos_x_px="1601" pos_y_px="352" size_x_px="72" size_y_px="15" type="solid_ground"/>
+    <ground pos_x_px="1264" pos_y_px="225" size_x_px="196" size_y_px="647" type="solid_ground"/>
+    <ground pos_x_px="697" pos_y_px="212" size_x_px="185" size_y_px="656" type="solid_ground"/>
+    <ground pos_x_px="431" pos_y_px="160" size_x_px="0" size_y_px="0" type="solid_ground"/>
+    <ground pos_x_px="373" pos_y_px="151" size_x_px="52" size_y_px="69" type="solid_ground"/>
+    <ground pos_x_px="0" pos_y_px="65" size_x_px="373" size_y_px="156" type="solid_ground"/>
+    <ground pos_x_px="1525" pos_y_px="59" size_x_px="105" size_y_px="48" type="solid_ground"/>
+    <ground pos_x_px="1630" pos_y_px="4" size_x_px="289" size_y_px="206" type="solid_ground"/>
+    <ground pos_x_px="17" pos_y_px="4" size_x_px="35" size_y_px="61" type="solid_ground"/>
+    <ground pos_x_px="746" pos_y_px="294" size_x_px="668" size_y_px="20" type="solid_ground" start_ground="true"/>
+  </grounds>
+  <enemies/>
+  <collectables>
+    <collectable pos_x_px="200" pos_y_px="1095" type="coin"/>
+    <collectable pos_x_px="240" pos_y_px="1095" type="coin"/>
+    <collectable pos_x_px="280" pos_y_px="1095" type="coin"/>
+    <collectable pos_x_px="320" pos_y_px="1095" type="coin"/>
+    <collectable pos_x_px="360" pos_y_px="1095" type="coin"/>
+    <collectable pos_x_px="400" pos_y_px="1095" type="coin"/>
+    <collectable pos_x_px="500" pos_y_px="1095" type="heart"/>
+  </collectables>
+</scene>

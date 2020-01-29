@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+    <grounds>
+        <ground pos_x_px="100" pos_y_px="-170" size_x_px="300" size_y_px="70" type="solid_ground"/>
+        <ground pos_x_px="1520" pos_y_px="-170" size_x_px="300" size_y_px="70" type="solid_ground"/>
+        <ground pos_x_px="1607" pos_y_px="-268" size_x_px="86" size_y_px="77" type="portal" dest_x="-1324" dest_y="-1123"/>
+        <ground pos_x_px="209" pos_y_px="-272" size_x_px="86" size_y_px="84" type="portal" dest_x="74" dest_y="-1122"/>
+        <ground pos_x_px="709" pos_y_px="-297" size_x_px="104" size_y_px="49" type="solid_ground"/>
+        <ground pos_x_px="1070" pos_y_px="-436" size_x_px="163" size_y_px="45" type="solid_ground"/>
+        <ground pos_x_px="456" pos_y_px="-597" size_x_px="350" size_y_px="45" type="solid_ground"/>
+        <ground pos_x_px="510" pos_y_px="-831" size_x_px="104" size_y_px="83" type="portal" dest_x="-181" dest_y="-8569"/>
+        <ground pos_x_px="0" pos_y_px="-1280" size_x_px="1919" size_y_px="224" type="solid_ground"/>
+        <ground pos_x_px="78" pos_y_px="-1389" size_x_px="100" size_y_px="94" type="portal" dest_x="299" dest_y="-1166"/>
+        <ground pos_x_px="1056" pos_y_px="-1413" size_x_px="69" size_y_px="138" type="solid_ground"/>
+        <ground pos_x_px="203" pos_y_px="-1416" size_x_px="21" size_y_px="137" type="solid_ground"/>
+        <ground pos_x_px="0" pos_y_px="-2463" size_x_px="1919" size_y_px="211" type="solid_ground"/>
+        <ground pos_x_px="1568" pos_y_px="-2509" size_x_px="96" size_y_px="46" type="solid_ground"/>
+        <ground pos_x_px="564" pos_y_px="-2510" size_x_px="103" size_y_px="48" type="solid_ground"/>
+        <ground pos_x_px="1052" pos_y_px="-2521" size_x_px="92" size_y_px="58" type="solid_ground"/>
+        <ground pos_x_px="59" pos_y_px="-2549" size_x_px="83" size_y_px="70" type="portal" dest_x="267" dest_y="-1026"/>
+        <ground pos_x_px="201" pos_y_px="-2584" size_x_px="55" size_y_px="124" type="solid_ground"/>
+        <ground pos_x_px="0" pos_y_px="-3502" size_x_px="1919" size_y_px="187" type="solid_ground"/>
+        <ground pos_x_px="1260" pos_y_px="-3535" size_x_px="260" size_y_px="33" type="bad_ground"/>
+        <ground pos_x_px="52" pos_y_px="-3603" size_x_px="90" size_y_px="81" type="portal" dest_x="319" dest_y="-1212"/>
+        <ground pos_x_px="197" pos_y_px="-3615" size_x_px="28" size_y_px="115" type="solid_ground"/>
+        <ground pos_x_px="1574" pos_y_px="-3660" size_x_px="148" size_y_px="54" type="solid_ground"/>
+        <ground pos_x_px="1184" pos_y_px="-3664" size_x_px="80" size_y_px="48" type="solid_ground"/>
+        <ground pos_x_px="895" pos_y_px="-3727" size_x_px="111" size_y_px="52" type="solid_ground"/>
+        <ground pos_x_px="945" pos_y_px="-3758" size_x_px="30" size_y_px="31" type="bad_ground"/>
+        <ground pos_x_px="0" pos_y_px="-4711" size_x_px="1919" size_y_px="182" type="solid_ground"/>
+        <ground pos_x_px="81" pos_y_px="-4807" size_x_px="79" size_y_px="75" type="portal" dest_x="236" dest_y="-1702"/>
+        <ground pos_x_px="1108" pos_y_px="-4808" size_x_px="106" size_y_px="76" type="portal" dest_x="5" dest_y="-407"/>
+        <ground pos_x_px="239" pos_y_px="-4813" size_x_px="40" size_y_px="104" type="solid_ground"/>
+        <ground pos_x_px="1032" pos_y_px="-5152" size_x_px="187" size_y_px="40" type="solid_ground"/>
+        <ground pos_x_px="1334" pos_y_px="-5152" size_x_px="585" size_y_px="94" type="solid_ground"/>
+        <ground pos_x_px="713" pos_y_px="-5283" size_x_px="118" size_y_px="90" type="portal" dest_x="960" dest_y="-162"/>
+        <ground pos_x_px="1548" pos_y_px="-5339" size_x_px="219" size_y_px="65" type="solid_ground"/>
+        <ground pos_x_px="1311" pos_y_px="-5547" size_x_px="125" size_y_px="489" type="solid_ground"/>
+        <ground pos_x_px="0" pos_y_px="-6405" size_x_px="1919" size_y_px="191" type="solid_ground"/>
+        <ground pos_x_px="1764" pos_y_px="-6448" size_x_px="132" size_y_px="46" type="bad_ground"/>
+        <ground pos_x_px="834" pos_y_px="-6488" size_x_px="223" size_y_px="46" type="solid_ground"/>
+        <ground pos_x_px="48" pos_y_px="-6513" size_x_px="94" size_y_px="80" type="portal" dest_x="338" dest_y="-1245"/>
+        <ground pos_x_px="189" pos_y_px="-6515" size_x_px="38" size_y_px="110" type="solid_ground"/>
+        <ground pos_x_px="1181" pos_y_px="-6635" size_x_px="214" size_y_px="60" type="solid_ground"/>
+        <ground pos_x_px="1539" pos_y_px="-6720" size_x_px="216" size_y_px="78" type="solid_ground"/>
+        <ground pos_x_px="0" pos_y_px="-7680" size_x_px="1919" size_y_px="190" type="solid_ground"/>
+        <ground pos_x_px="1510" pos_y_px="-7718" size_x_px="226" size_y_px="38" type="bad_ground"/>
+        <ground pos_x_px="1098" pos_y_px="-7767" size_x_px="100" size_y_px="100" type="buyable_button" buyable_type="jump_boost"/>
+        <ground pos_x_px="1249" pos_y_px="-7769" size_x_px="100" size_y_px="100" type="buyable_button" buyable_type="immortality"/>
+        <ground pos_x_px="71" pos_y_px="-7786" size_x_px="105" size_y_px="78" type="portal" dest_x="235" dest_y="-1613"/>
+        <ground pos_x_px="251" pos_y_px="-7802" size_x_px="43" size_y_px="123" type="solid_ground"/>
+        <ground pos_x_px="787" pos_y_px="-7930" size_x_px="115" size_y_px="28" type="solid_ground"/>
+        <ground pos_x_px="983" pos_y_px="-8379" size_x_px="141" size_y_px="78" type="solid_ground"/>
+        <ground pos_x_px="0" pos_y_px="-9294" size_x_px="1919" size_y_px="164" type="solid_ground"/>
+        <ground pos_x_px="207" pos_y_px="-9393" size_x_px="30" size_y_px="99" type="solid_ground"/>
+        <ground pos_x_px="1005" pos_y_px="-9616" size_x_px="914" size_y_px="139" type="solid_ground"/>
+        <ground pos_x_px="72" pos_y_px="-9379" size_x_px="84" size_y_px="70" type="portal" dest_x="1196" dest_y="-322"/>
+    </grounds>
+    <enemies>
+        <enemy pos_x_px="1592" pos_y_px="-1366" type="shooter"/>
+        <enemy pos_x_px="1309" pos_y_px="-1468" type="shooter"/>
+        <enemy pos_x_px="883" pos_y_px="-2559" type="walker"/>
+        <enemy pos_x_px="1283" pos_y_px="-2562" type="walker"/>
+        <enemy pos_x_px="1765" pos_y_px="-7799" type="shooter"/>
+        <enemy pos_x_px="1598" pos_y_px="-7843" type="shooter"/>
+        <enemy pos_x_px="1691" pos_y_px="-7928" type="shooter"/>
+    </enemies>
+    <collectables>
+        <collectable pos_x_px="1613" pos_y_px="-6457" type="heart"/>
+        <collectable pos_x_px="1302" pos_y_px="-6463" type="heart"/>
+        <collectable pos_x_px="926" pos_y_px="-6534" type="coin"/>
+        <collectable pos_x_px="983" pos_y_px="-6537" type="coin"/>
+        <collectable pos_x_px="874" pos_y_px="-6538" type="coin"/>
+        <collectable pos_x_px="1209" pos_y_px="-6683" type="coin"/>
+        <collectable pos_x_px="1289" pos_y_px="-6693" type="coin"/>
+        <collectable pos_x_px="1638" pos_y_px="-6770" type="coin"/>
+        <collectable pos_x_px="1556" pos_y_px="-6815" type="coin"/>
+        <collectable pos_x_px="1710" pos_y_px="-6826" type="coin"/>
+        <collectable pos_x_px="1303" pos_y_px="-9364" type="coin"/>
+        <collectable pos_x_px="1679" pos_y_px="-9366" type="coin"/>
+        <collectable pos_x_px="1414" pos_y_px="-9371" type="coin"/>
+        <collectable pos_x_px="1262" pos_y_px="-9375" type="coin"/>
+        <collectable pos_x_px="1593" pos_y_px="-9376" type="coin"/>
+        <collectable pos_x_px="1752" pos_y_px="-9383" type="coin"/>
+        <collectable pos_x_px="1845" pos_y_px="-9383" type="coin"/>
+        <collectable pos_x_px="1532" pos_y_px="-9384" type="coin"/>
+        <collectable pos_x_px="1341" pos_y_px="-9385" type="coin"/>
+        <collectable pos_x_px="1459" pos_y_px="-9388" type="coin"/>
+        <collectable pos_x_px="1713" pos_y_px="-9404" type="coin"/>
+        <collectable pos_x_px="1529" pos_y_px="-9412" type="coin"/>
+        <collectable pos_x_px="1814" pos_y_px="-9417" type="coin"/>
+        <collectable pos_x_px="1386" pos_y_px="-9430" type="coin"/>
+    </collectables>
+</scene>

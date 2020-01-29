@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+    <grounds>
+        <ground pos_x_px="100" pos_y_px="-170" size_x_px="300" size_y_px="70" type="solid_ground"/>
+        <ground pos_x_px="1027" pos_y_px="-171" size_x_px="300" size_y_px="70" type="solid_ground"/>
+        <ground pos_x_px="1030" pos_y_px="-325" size_x_px="154" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="1472" pos_y_px="-325" size_x_px="154" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="1664" pos_y_px="-325" size_x_px="96" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="1395" pos_y_px="-389" size_x_px="19" size_y_px="86" type="solid_ground"/>
+        <ground pos_x_px="915" pos_y_px="-433" size_x_px="19" size_y_px="130" type="solid_ground"/>
+        <ground pos_x_px="954" pos_y_px="-433" size_x_px="19" size_y_px="130" type="solid_ground"/>
+        <ground pos_x_px="1280" pos_y_px="-465" size_x_px="154" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="1376" pos_y_px="-465" size_x_px="19" size_y_px="86" type="solid_ground"/>
+        <ground pos_x_px="1664" pos_y_px="-465" size_x_px="19" size_y_px="140" type="solid_ground"/>
+        <ground pos_x_px="1664" pos_y_px="-465" size_x_px="96" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="1741" pos_y_px="-465" size_x_px="19" size_y_px="140" type="solid_ground"/>
+        <ground pos_x_px="1060" pos_y_px="-533" size_x_px="3" size_y_px="4" type="portal" dest_x="-100" dest_y="-2189"/>
+        <ground pos_x_px="1472" pos_y_px="-551" size_x_px="19" size_y_px="248" type="solid_ground"/>
+        <ground pos_x_px="896" pos_y_px="-573" size_x_px="19" size_y_px="162" type="solid_ground"/>
+        <ground pos_x_px="934" pos_y_px="-573" size_x_px="19" size_y_px="162" type="solid_ground"/>
+        <ground pos_x_px="973" pos_y_px="-573" size_x_px="19" size_y_px="162" type="solid_ground"/>
+        <ground pos_x_px="1030" pos_y_px="-573" size_x_px="19" size_y_px="270" type="solid_ground"/>
+        <ground pos_x_px="1030" pos_y_px="-573" size_x_px="192" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="1222" pos_y_px="-573" size_x_px="19" size_y_px="270" type="solid_ground"/>
+        <ground pos_x_px="1280" pos_y_px="-573" size_x_px="19" size_y_px="270" type="solid_ground"/>
+        <ground pos_x_px="1280" pos_y_px="-573" size_x_px="154" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="1414" pos_y_px="-573" size_x_px="19" size_y_px="108" type="solid_ground"/>
+        <ground pos_x_px="358" pos_y_px="-703" size_x_px="192" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="570" pos_y_px="-703" size_x_px="192" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="781" pos_y_px="-703" size_x_px="173" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="992" pos_y_px="-703" size_x_px="192" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="147" pos_y_px="-843" size_x_px="192" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="358" pos_y_px="-843" size_x_px="173" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="781" pos_y_px="-897" size_x_px="19" size_y_px="216" type="solid_ground"/>
+        <ground pos_x_px="147" pos_y_px="-1005" size_x_px="19" size_y_px="324" type="solid_ground"/>
+        <ground pos_x_px="320" pos_y_px="-1005" size_x_px="19" size_y_px="324" type="solid_ground"/>
+        <ground pos_x_px="358" pos_y_px="-1005" size_x_px="19" size_y_px="324" type="solid_ground"/>
+        <ground pos_x_px="358" pos_y_px="-1005" size_x_px="192" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="570" pos_y_px="-1005" size_x_px="19" size_y_px="324" type="solid_ground"/>
+        <ground pos_x_px="992" pos_y_px="-1005" size_x_px="19" size_y_px="324" type="solid_ground"/>
+        <ground pos_x_px="992" pos_y_px="-1005" size_x_px="192" size_y_px="22" type="solid_ground"/>
+        <ground pos_x_px="1165" pos_y_px="-1005" size_x_px="19" size_y_px="324" type="solid_ground"/>
+        <ground pos_x_px="72" pos_y_px="-2664" size_x_px="1781" size_y_px="170" type="solid_ground"/>
+        <ground pos_x_px="1520" pos_y_px="-170" size_x_px="300" size_y_px="70" type="solid_ground"/>
+    </grounds>
+    <enemies/>
+    <collectables/>
+</scene>

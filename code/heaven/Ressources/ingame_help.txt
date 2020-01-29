@@ -1,0 +1,6 @@
+                ### Keybindings for the game ###
+                       F1: Show this help
+W / Up Key / Space: Jump                 A / Left Key: Move left
+Hold W / Up Key / Space: Jump higher     D / Right Key: Move right
+Esc: End game                            Enter: Press button
+F6: Open editor (closes the game)

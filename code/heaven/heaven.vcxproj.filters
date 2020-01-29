@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Characters">
+      <UniqueIdentifier>{1a1be1e4-7fbe-4e10-a0ac-311bfaedfd33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Grounds">
+      <UniqueIdentifier>{0480299b-9083-4f07-a850-8229dd5c96f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{f7665398-8084-44fc-af7e-a5f8c06c1e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Scenes">
+      <UniqueIdentifier>{8bef9d52-5f3f-4a4d-8d24-90539d5b43ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\Backgrounds">
+      <UniqueIdentifier>{a45b21d6-f49a-47f2-8e2f-9a744307a123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\Grounds">
+      <UniqueIdentifier>{fefee234-bb61-4bf9-a50a-d7fe703c2c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Characters">
+      <UniqueIdentifier>{26b91592-9e6a-49bb-89d0-cbebb95bb1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Grounds">
+      <UniqueIdentifier>{d6d41a4a-6766-4f33-8b0d-c37c6c01de57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml2">
+      <UniqueIdentifier>{09a793a9-367b-4f49-8cca-bd036ae14962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{785c6de2-b3a0-4d49-8a27-e7e80baaceb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Characters\Bullets">
+      <UniqueIdentifier>{67920a01-6db3-47f0-93b3-ae52bb2c6b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Characters\Bullets">
+      <UniqueIdentifier>{bedea387-7880-44bd-9ac2-0e8f24408678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\Characters">
+      <UniqueIdentifier>{d4b2c708-595a-4c23-9753-4864bd68ffbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\Characters\Player">
+      <UniqueIdentifier>{32215978-f867-4db3-9659-f45c411d8ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\Characters\Bullets">
+      <UniqueIdentifier>{d0685d55-0273-41d9-8428-3f69566760dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{2c7dd442-2738-45f9-be17-c607e54b2642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{c36babe4-a386-4a88-892d-02ba584ad59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Grounds\Buttons">
+      <UniqueIdentifier>{2fa2edd8-e57e-4013-821c-a91bfc5c8425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collectables">
+      <UniqueIdentifier>{84576644-ab1b-48c5-85eb-fb610988f264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collectables">
+      <UniqueIdentifier>{0e2f9a2c-860b-4239-ab14-11e48bc9dc33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Grounds\Buttons">
+      <UniqueIdentifier>{8cb7a125-7c12-41ac-8baf-13b4264c0c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\Characters\Enemies">
+      <UniqueIdentifier>{7262334e-bfd7-4f4e-a621-cceda2177a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\Grounds\Buttons">
+      <UniqueIdentifier>{37e0f99d-98ef-4edb-bfa3-849a53cffcd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Buyables">
+      <UniqueIdentifier>{fc077988-2be3-4670-b49e-59f277416d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Buyables">
+      <UniqueIdentifier>{9f40158c-94c9-4d54-8b85-36fcc3b1a17e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\hud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\key_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\log_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\character.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\enemy.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\player.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\vert_movement.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grounds\bad_ground.h">
+      <Filter>Header Files\Grounds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grounds\ground.h">
+      <Filter>Header Files\Grounds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grounds\solid_ground.h">
+      <Filter>Header Files\Grounds</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2\tinyxml2.h">
+      <Filter>tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\editor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\shooter.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\Bullets\bullet.h">
+      <Filter>Header Files\Characters\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grounds\portal.h">
+      <Filter>Header Files\Grounds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Network\network_manager.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Network\host.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Network\client.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grounds\Buttons\button.h">
+      <Filter>Header Files\Grounds\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grounds\Buttons\network_button.h">
+      <Filter>Header Files\Grounds\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collectables\coin.h">
+      <Filter>Header Files\Collectables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collectables\collectable.h">
+      <Filter>Header Files\Collectables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grounds\enemy_border.h">
+      <Filter>Header Files\Grounds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\walker.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collectables\collectable_factory.h">
+      <Filter>Header Files\Collectables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collectables\collectable_helper.h">
+      <Filter>Header Files\Collectables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\character_helper.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Characters\character_factory.h">
+      <Filter>Header Files\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collectables\heart.h">
+      <Filter>Header Files\Collectables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grounds\Buttons\button_factory.h">
+      <Filter>Header Files\Grounds\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grounds\Buttons\button_helper.h">
+      <Filter>Header Files\Grounds\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grounds\Buttons\buyable_button.h">
+      <Filter>Header Files\Grounds\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Buyables\buyable.h">
+      <Filter>Header Files\Buyables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Buyables\buyable_factory.h">
+      <Filter>Header Files\Buyables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Buyables\buyable_helper.h">
+      <Filter>Header Files\Buyables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Buyables\jump_boost.h">
+      <Filter>Header Files\Buyables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grounds\Buttons\start_button.h">
+      <Filter>Header Files\Grounds\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\help_overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Buyables\immortality.h">
+      <Filter>Header Files\Buyables</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Ressources\Fipps-Regular.otf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="Ressources\Gravity-Book.otf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="Ressources\PressStart2P.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="Ressources\monofonto.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ressources\Images\Grounds\Base.xcf">
+      <Filter>Resource Files\Images\Grounds</Filter>
+    </None>
+    <None Include="Ressources\Images\Grounds\Spikes.xcf">
+      <Filter>Resource Files\Images\Grounds</Filter>
+    </None>
+    <None Include="Ressources\Images\Grounds\top_grass.xcf">
+      <Filter>Resource Files\Images\Grounds</Filter>
+    </None>
+    <None Include="Ressources\Images\Player\hearts.xcf">
+      <Filter>Resource Files\Images\Characters\Player</Filter>
+    </None>
+    <None Include="Ressources\Images\Characters\Bullets\bullet.xcf">
+      <Filter>Resource Files\Images\Characters\Bullets</Filter>
+    </None>
+    <None Include="Ressources\scene_list.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Ressources\Images\Characters\Player\hearts.xcf">
+      <Filter>Resource Files\Images\Characters\Player</Filter>
+    </None>
+    <None Include="Ressources\Images\Characters\Enemies\shooter.xcf">
+      <Filter>Resource Files\Images\Characters\Enemies</Filter>
+    </None>
+    <None Include="Ressources\Images\Characters\Enemies\shooter_sprite.xcf">
+      <Filter>Resource Files\Images\Characters\Enemies</Filter>
+    </None>
+    <None Include="Ressources\Images\Grounds\portal.xcf">
+      <Filter>Resource Files\Images\Grounds</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Ressources\Scenes\hello_world.xml">
+      <Filter>Resource Files\Scenes</Filter>
+    </Xml>
+    <Xml Include="Ressources\Scenes\spawn.xml">
+      <Filter>Resource Files\Scenes</Filter>
+    </Xml>
+    <Xml Include="Ressources\Scenes\sexy_street.xml">
+      <Filter>Resource Files\Scenes</Filter>
+    </Xml>
+    <Xml Include="Ressources\Scenes\tiny_town.xml">
+      <Filter>Resource Files\Scenes</Filter>
+    </Xml>
+    <Xml Include="Ressources\Scenes\coin_rain.xml">
+      <Filter>Resource Files\Scenes</Filter>
+    </Xml>
+    <Xml Include="Ressources\Scenes\flat_lab.xml">
+      <Filter>Resource Files\Scenes</Filter>
+    </Xml>
+    <Xml Include="Ressources\Scenes\lucky_jump.xml">
+      <Filter>Resource Files\Scenes</Filter>
+    </Xml>
+    <Xml Include="Ressources\Scenes\stairway_to_heaven.xml">
+      <Filter>Resource Files\Scenes</Filter>
+    </Xml>
+    <Xml Include="Ressources\Scenes\the_tree.xml">
+      <Filter>Resource Files\Scenes</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Ressources\Images\Backgrounds\background_1.jpg">
+      <Filter>Resource Files\Images\Backgrounds</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Backgrounds\background_2.jpg">
+      <Filter>Resource Files\Images\Backgrounds</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Backgrounds\background_3.jpg">
+      <Filter>Resource Files\Images\Backgrounds</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Grounds\Base.png">
+      <Filter>Resource Files\Images\Grounds</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Grounds\Grass.png">
+      <Filter>Resource Files\Images\Grounds</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Grounds\kenny_spritesheet.png">
+      <Filter>Resource Files\Images\Grounds</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Grounds\Spikes.png">
+      <Filter>Resource Files\Images\Grounds</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Player\hearts.png">
+      <Filter>Resource Files\Images\Characters\Player</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Characters\Bullets\bullet.png">
+      <Filter>Resource Files\Images\Characters\Bullets</Filter>
+    </Image>
+    <Image Include="Ressources\Images\coin.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Ressources\Images\kenny_spritesheet.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Characters\spritesheet_jumper.png">
+      <Filter>Resource Files\Images\Characters</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Characters\Player\hearts.png">
+      <Filter>Resource Files\Images\Characters\Player</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Characters\Player\sprite_base_addon_2012_12_14.png">
+      <Filter>Resource Files\Images\Characters\Player</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Characters\Enemies\shooter_sprite.png">
+      <Filter>Resource Files\Images\Characters\Enemies</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Grounds\portal.png">
+      <Filter>Resource Files\Images\Grounds</Filter>
+    </Image>
+    <Image Include="Ressources\Images\Grounds\Buttons\network_button.png">
+      <Filter>Resource Files\Images\Grounds\Buttons</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tinyxml2\tinyxml2.cpp">
+      <Filter>tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grounds\bad_ground.cpp">
+      <Filter>Source Files\Grounds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grounds\ground.cpp">
+      <Filter>Source Files\Grounds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grounds\solid_ground.cpp">
+      <Filter>Source Files\Grounds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\character.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\enemy.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\player.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\vert_movement.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\key_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main_helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\editor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\shooter.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\Bullets\bullet.cpp">
+      <Filter>Source Files\Characters\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grounds\portal.cpp">
+      <Filter>Source Files\Grounds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Network\network_manager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Network\client.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Network\host.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grounds\Buttons\button.cpp">
+      <Filter>Source Files\Grounds\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grounds\Buttons\network_button.cpp">
+      <Filter>Source Files\Grounds\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collectables\coin.cpp">
+      <Filter>Source Files\Collectables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collectables\collectable.cpp">
+      <Filter>Source Files\Collectables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grounds\enemy_border.cpp">
+      <Filter>Source Files\Grounds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\walker.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collectables\collectable_factory.cpp">
+      <Filter>Source Files\Collectables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\character_factory.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters\character_helper.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collectables\collectable_helper.cpp">
+      <Filter>Source Files\Collectables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collectables\heart.cpp">
+      <Filter>Source Files\Collectables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grounds\Buttons\button_factory.cpp">
+      <Filter>Source Files\Grounds\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grounds\Buttons\button_helper.cpp">
+      <Filter>Source Files\Grounds\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grounds\Buttons\buyable_button.cpp">
+      <Filter>Source Files\Grounds\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Buyables\buyable.cpp">
+      <Filter>Source Files\Buyables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Buyables\buyable_factory.cpp">
+      <Filter>Source Files\Buyables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Buyables\buyable_helper.cpp">
+      <Filter>Source Files\Buyables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Buyables\jump_boost.cpp">
+      <Filter>Source Files\Buyables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grounds\Buttons\start_button.cpp">
+      <Filter>Source Files\Grounds\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\help_overlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Buyables\immortality.cpp">
+      <Filter>Source Files\Buyables</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Ressources\editor_help.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Ressources\ingame_help.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

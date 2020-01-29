@@ -1,0 +1,17 @@
+                ### Keybindings for the editor ###
+                       F1: Show this help
+
+1: Select ground: Default                Middle Mouse: Place Coin
+2: Select ground: Spikes                 Scroll: Move screen
+3: Select ground: Portal                 Up/Down Arrows: Move screen
+4: Select ground: Border for enemies     H: Place heart
+5: Select ground: Shop                   Hold Strg: Selection mode
+6: None                                  Hold Shift: Move selected
+7: None                                  C: Duplicate selected
+8: None                                  Backspace: Undo last add
+9: Select enemy: Walker                  Delete: Delete selected
+0: Select enemy: Shooter                 Hold N: Show next scene start
+Right Mouse: Place selected enemy        L: Load scene
+Left Mouse: Place selected ground        P: Place player for test
+Enter: Save scene (and close)            Esc: Stop testing
+B: Change item type of last shop

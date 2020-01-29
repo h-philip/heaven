@@ -1,0 +1,44 @@
+/**
+ * @file ground.cpp
+ * @author Philip Hönnecke (p.hoennecke@tu-braunschweig.de)
+ * @brief Source file for Ground class.
+ * @version 0.1
+ * @date 2019-11-21
+ *
+ * @copyright Copyright (c) 2019
+ *
+ */
+
+#include "ground.h"
+
+namespace Grounds {
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+/* draw() */
+///////////////////////////////////////////////////////////////////////////////////////////////////
+void Ground::draw(sf::RenderWindow* window) const {
+  for (auto s : this->sprites) window->draw(*s);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+/* move() */
+///////////////////////////////////////////////////////////////////////////////////////////////////
+void Ground::move(const sf::Vector2f& offset) {
+  for (auto sprite : this->sprites) {
+    sprite->move(offset);
+  }
+  this->global_bounds.left += offset.x;
+  this->global_bounds.top += offset.y;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+/* setPosition() */
+///////////////////////////////////////////////////////////////////////////////////////////////////
+void Ground::setPosition(const sf::Vector2f& position) {
+  for (auto sprite : this->sprites) {
+    sprite->setPosition(position);
+  }
+  this->global_bounds.left = position.x;
+  this->global_bounds.top = position.y;
+}
+}  // namespace Grounds
